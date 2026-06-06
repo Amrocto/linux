@@ -1,0 +1,3 @@
+chsh -s /bin/sh
+grep 'whoami' etc/passwd
+niyaz:x:1000:1000:niyaz:/home/niyaz:/bin/sh
