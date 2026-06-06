@@ -1,1 +1,2 @@
 [2026-06-06] niyaz@niyaz-x /$ export PS1="\[\e[33m\][\$(date '+%Y-%m-%d')]\[\e[m\] \u@\h \$ "
+Sat Jun 06 niyaz@niyaz-x $export PS1="\[\e[33m\]\d\[\e[m\] \u@\h \$"

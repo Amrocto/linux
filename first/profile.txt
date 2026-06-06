@@ -54,6 +54,6 @@ VTE_VERSION=8400
 
 
 //fourth exercise
-niyaz@niyaz-x:~/first$ alias cur='echo 5'
+niyaz@niyaz-x:~/first$ alias cur="date"
 niyaz@niyaz-x:~/first$ cur
-5
+Sat Jun  6 11:40:44 PM MSK 2026
