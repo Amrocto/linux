@@ -48,5 +48,5 @@ rtkit:x:978:978:RealtimeKit:/proc:/usr/sbin/nologin
 colord:x:977:977:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
 gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
 niyaz:x:1000:1000:niyaz:/home/niyaz:/bin/sh
-grep 'niyaz' etc/passwd
+grep 'niyaz' /etc/passwd
 niyaz:x:1000:1000:niyaz:/home/niyaz:/bin/sh
