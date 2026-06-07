@@ -1,0 +1,9 @@
+Sat Jun 06 niyaz@niyaz-x $ls --full-time
+total 20
+-rw-rw-r-- 1 niyaz niyaz   39 2026-06-06 19:37:51.956994297 +0300 firstTask.txt
+-rw-rw-r-- 1 niyaz niyaz    7 2026-06-06 23:21:33.775485656 +0300 ls.txt
+-rw-rw-r-- 1 niyaz niyaz 1910 2026-06-06 23:41:03.689009880 +0300 profile.txt
+-rw-rw-r-- 1 niyaz niyaz  163 2026-06-06 23:47:52.579882658 +0300 prompt.txt
+-rw-rw-r-- 1 niyaz niyaz 2867 2026-06-06 23:36:35.965703044 +0300 secondTask.txt
+Sat Jun 06 niyaz@niyaz-x $
+
