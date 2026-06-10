@@ -1,0 +1,2 @@
+niyaz@niyaz-x:~/first$ sudo systemctl get-default 
+multi-user.target
