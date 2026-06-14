@@ -1,0 +1,54 @@
+niyaz@niyaz-x:~/first$ sudo apt install Syntax Highlighter
+Error: Unable to locate package Syntax
+Error: Unable to locate package Highlighter
+niyaz@niyaz-x:~/first$ sudo apt install -f Syntax Highlighter
+Error: Unable to locate package Syntax
+Error: Unable to locate package Highlighter
+niyaz@niyaz-x:~/first$ sudo apt install "Syntax Highlighter"
+Error: Unable to locate package Syntax Highlighter
+niyaz@niyaz-x:~/first$ sudo apt install -f Syntax Highlighte^C
+niyaz@niyaz-x:~/first$ sudo apt install "jQuery.Syntax"
+Error: Unable to locate package jQuery.Syntax
+Error: Couldn't find any package by glob 'jQuery.Syntax'
+niyaz@niyaz-x:~/first$ sudo apt install jQuery.Syntax
+Error: Unable to locate package jQuery.Syntax
+Error: Couldn't find any package by glob 'jQuery.Syntax'
+niyaz@niyaz-x:~/first$ sudo apt install -f jQuery.Syntax
+Error: Unable to locate package jQuery.Syntax
+Error: Couldn't find any package by glob 'jQuery.Syntax'
+niyaz@niyaz-x:~/first$ sudo apt update
+Hit:1 http://ru.archive.ubuntu.com/ubuntu resolute InRelease
+Hit:2 http://ru.archive.ubuntu.com/ubuntu resolute-updates InRelease
+Hit:3 http://ru.archive.ubuntu.com/ubuntu resolute-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu resolute-security InRelease
+24 packages can be upgraded. Run 'apt list --upgradable' to see them.
+niyaz@niyaz-x:~/first$ sudo apt install  jQuery.Syntax
+Error: Unable to locate package jQuery.Syntax
+Error: Couldn't find any package by glob 'jQuery.Syntax'
+niyaz@niyaz-x:~/first$ sudo apt install libjs-highlight.js
+Installing:
+  libjs-highlight.js
+
+Installing dependencies:
+  javascript-common
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 24
+  Download size: 149 kB
+  Space needed: 756 kB / 50.2 GB available
+
+Continue? [Y/n] y
+Get:1 http://ru.archive.ubuntu.com/ubuntu resolute/main arm64 javascript-common all 12+nmu1build1 [4,864 B]
+Get:2 http://ru.archive.ubuntu.com/ubuntu resolute/universe arm64 libjs-highlight.js all 10.7.3+dfsg-2 [144 kB]
+Fetched 149 kB in 0s (1,138 kB/s)
+Selecting previously unselected package javascript-common.
+(Reading database… 213111 files and directories currently installed.)
+Preparing to unpack …/javascript-common_12+nmu1build1_all.deb…
+Unpacking javascript-common (12+nmu1build1)…
+Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack …/libjs-highlight.js_10.7.3+dfsg-2_all.deb…
+Unpacking libjs-highlight.js (10.7.3+dfsg-2)…
+Setting up javascript-common (12+nmu1build1)…
+Setting up libjs-highlight.js (10.7.3+dfsg-2)…
+niyaz@niyaz-x:~/first$
+

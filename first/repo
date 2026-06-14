@@ -1,0 +1,4 @@
+niyaz@niyaz-x:~/first$ sudo add-apt-repository --remove jammy-security universe
+[sudo: authenticate] Password:
+Unable to handle repository shortcut 'jammy-security universe'
+niyaz@niyaz-x:~/first$

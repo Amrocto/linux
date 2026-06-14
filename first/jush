@@ -1,0 +1,16 @@
+niyaz@niyaz-x:~/first$ sudo apt remove libjs-highlight.js
+[sudo: authenticate] Password:
+The following package was automatically installed and is no longer required:
+  javascript-common
+Use 'sudo apt autoremove' to remove it.
+
+REMOVING:
+  libjs-highlight.js
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 24
+  Freed space: 725 kB
+
+Continue? [Y/n] y
+(Reading database… 213229 files and directories currently installed.)
+Removing libjs-highlight.js (10.7.3+dfsg-2)…
