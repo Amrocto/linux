@@ -1,4 +1,16 @@
-niyaz@niyaz-x:~/first$ sudo add-apt-repository --remove jammy-security universe
-[sudo: authenticate] Password:
-Unable to handle repository shortcut 'jammy-security universe'
-niyaz@niyaz-x:~/first$
+Репозиторий jammy-security universe отсутствует в системе.
+Система использует Ubuntu 24.04 (Resolute), а не Ubuntu 22.04 (Jammy).
+
+Если бы репозиторий присутствовал, способы отключения:
+
+1. Редактирование /etc/apt/sources.list:
+   - Найти строку с jammy-security universe
+   - Закомментировать её символом #
+   - Или удалить компонент universe из строки Components
+
+2. Для формата DEB822 (/etc/apt/sources.list.d/*.sources):
+   - Найти секцию с Suites: jammy-security
+   - Удалить universe из строки Components: main restricted universe multiverse
+   - Результат: Components: main restricted multiverse
+
+3. После изменений выполнить: sudo apt update

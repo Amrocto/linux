@@ -1,16 +1,14 @@
-niyaz@niyaz-x:~/first$ sudo apt remove libjs-highlight.js
-[sudo: authenticate] Password:
-The following package was automatically installed and is no longer required:
-  javascript-common
-Use 'sudo apt autoremove' to remove it.
-
+kniyaz@niyaz-x:~/first$ sudo apt autoremove libjs-jquery-jush
 REMOVING:
-  libjs-highlight.js
+  javascript-common  libjs-jquery  libjs-jquery-jush
 
 Summary:
-  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 24
-  Freed space: 725 kB
+  Upgrading: 0, Installing: 0, Removing: 3, Not Upgrading: 24
+  Freed space: 973 kB
 
 Continue? [Y/n] y
-(Reading database… 213229 files and directories currently installed.)
-Removing libjs-highlight.js (10.7.3+dfsg-2)…
+(Reading database… 213140 files and directories currently installed.)
+Removing javascript-common (12+nmu1build1)…
+Removing libjs-jquery-jush (12-4build1)…
+Removing libjs-jquery (3.7.1+dfsg+~3.5.33-1build1)…
+niyaz@niyaz-x:~/first$
