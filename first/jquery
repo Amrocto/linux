@@ -1,52 +1,63 @@
-niyaz@niyaz-x:~/first$ sudo apt install Syntax Highlighter
-Error: Unable to locate package Syntax
-Error: Unable to locate package Highlighter
-niyaz@niyaz-x:~/first$ sudo apt install -f Syntax Highlighter
-Error: Unable to locate package Syntax
-Error: Unable to locate package Highlighter
-niyaz@niyaz-x:~/first$ sudo apt install "Syntax Highlighter"
-Error: Unable to locate package Syntax Highlighter
-niyaz@niyaz-x:~/first$ sudo apt install -f Syntax Highlighte^C
-niyaz@niyaz-x:~/first$ sudo apt install "jQuery.Syntax"
-Error: Unable to locate package jQuery.Syntax
-Error: Couldn't find any package by glob 'jQuery.Syntax'
-niyaz@niyaz-x:~/first$ sudo apt install jQuery.Syntax
-Error: Unable to locate package jQuery.Syntax
-Error: Couldn't find any package by glob 'jQuery.Syntax'
-niyaz@niyaz-x:~/first$ sudo apt install -f jQuery.Syntax
-Error: Unable to locate package jQuery.Syntax
-Error: Couldn't find any package by glob 'jQuery.Syntax'
-niyaz@niyaz-x:~/first$ sudo apt update
-Hit:1 http://ru.archive.ubuntu.com/ubuntu resolute InRelease
-Hit:2 http://ru.archive.ubuntu.com/ubuntu resolute-updates InRelease
-Hit:3 http://ru.archive.ubuntu.com/ubuntu resolute-backports InRelease
-Hit:4 http://security.ubuntu.com/ubuntu resolute-security InRelease
-24 packages can be upgraded. Run 'apt list --upgradable' to see them.
-niyaz@niyaz-x:~/first$ sudo apt install  jQuery.Syntax
-Error: Unable to locate package jQuery.Syntax
-Error: Couldn't find any package by glob 'jQuery.Syntax'
-niyaz@niyaz-x:~/first$ sudo apt install libjs-highlight.js
+niyaz@niyaz-x:~/first$ apt search jquery syntax
+golang-github-goji-param-dev/resolute 0.0~git20160927.d7f49fd-6 all
+  Rack / jQuery style parameter parsing for Go
+
+golang-github-puerkitobio-goquery-dev/resolute 1.11.0-1 all
+  jQuery-style HTML manipulation in Go
+
+libhtml-query-perl/resolute 0.09-2 all
+  HTML::Tree add-on to allow jQuery-like queries on HTML::Element trees
+
+libjs-jquery-jush/resolute 12-4build1 all
+  jQuery Syntax Highlighter
+
+libjs-jquery-markitup/resolute 1.1.15-1.1 all
+  jQuery based universal markup editor
+
+libjs-jush/resolute 2.1.3-1 all
+  JavaScript Syntax Highlighter
+
+niyaz@niyaz-x:~/first$ sudo apt install li
+Display all 31992 possibilities? (y or n)
+niyaz@niyaz-x:~/first$ sudo apt install libjs-jquery-
+libjs-jquery-form                     libjs-jquery-ui-theme-blitzer         libjs-jquery-slides                   libjs-jquery-fancybox                 libjs-jquery-timepicker               libjs-jquery-treetable
+libjs-jquery-resize                   libjs-jquery-i18n                     libjs-jquery-hotkeys                  libjs-jquery-jgrowl                   libjs-jquery-throttle-debounce        libjs-jquery-opacityrollover
+libjs-jquery-ui-theme-dot-luv         libjs-jquery-lazyload                 libjs-jquery-ui-theme-pepper-grinder  libjs-jquery-tmpl                     libjs-jquery-textcomplete             libjs-jquery-backstretch
+libjs-jquery-geo                      libjs-jquery-ui-theme-mint-choc       libjs-jquery-selectize.js             libjs-jquery-tablesorter              libjs-jquery-ui-theme-sunny           libjs-jquery-datatables-extensions
+libjs-jquery-meiomask                 libjs-jquery-galleriffic              libjs-jquery-center                   libjs-jquery-datetimepicker           libjs-jquery-ui-theme-redmond         libjs-jquery-resize-doc
+libjs-jquery-gitgraph                 libjs-jquery-easing                   libjs-jquery-tipsy                    libjs-jquery-colorbox                 libjs-jquery-ui-theme-cupertino       libjs-jquery-atwho
+libjs-jquery-ui-docs                  libjs-jquery-ui                       libjs-jquery-watermark                libjs-jquery-reflection               libjs-jquery-event-drag               libjs-jquery-scrollto
+libjs-jquery-ui-theme-swanky-purse    libjs-jquery-ui-theme-trontastic      libjs-jquery-ui-theme-hot-sneaks      libjs-jquery-flot-docs                libjs-jquery-event-drop               libjs-jquery-cookie
+libjs-jquery-i18n-properties          libjs-jquery-jstree                   libjs-jquery-ui-theme-start           libjs-jquery-ui-theme-south-street    libjs-jquery-jush                     libjs-jquery-mousewheel
+libjs-jquery-ui-theme-vader           libjs-jquery-datatables               libjs-jquery-ui-theme-ui-lightness    libjs-jquery-colorpicker              libjs-jquery-blockui                  libjs-jquery-migrate-1
+libjs-jquery-file-upload              libjs-jquery-countdown                libjs-jquery-sortablejs               libjs-jquery-ui-theme-ui-darkness     libjs-jquery-typeahead                libjs-jquery-ui-theme-dark-hive
+libjs-jquery-ui-theme-base            libjs-jquery-ui-theme-smoothness      libjs-jquery-metadata                 libjs-jquery-ui-theme-flick           libjs-jquery-history                  libjs-jquery-ui-theme-excite-bike
+libjs-jquery-placeholder              libjs-jquery-isonscreen               libjs-jquery-fullscreen               libjs-jquery-timeago                  libjs-jquery-ui-theme-le-frog         libjs-jquery-mobile
+libjs-jquery-ui-theme-black-tie       libjs-jquery-flot-axislabels          libjs-jquery-jfeed                    libjs-jquery-caret.js                 libjs-jquery-ui-theme-humanity        libjs-jquery-flot
+libjs-jquery-areyousure               libjs-jquery-ui-touch-punch           libjs-jquery-stupidtable              libjs-jquery-ui-theme-eggplant        libjs-jquery-coolfieldset
+libjs-jquery-markitup                 libjs-jquery-fixedtableheader         libjs-jquery-ui-theme-overcast        libjs-jquery-livequery                libjs-jquery-minicolors
+niyaz@niyaz-x:~/first$ sudo apt install libjs-jquery-jush
 Installing:
-  libjs-highlight.js
+  libjs-jquery-jush
 
 Installing dependencies:
-  javascript-common
+  libjs-jquery
 
 Summary:
   Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 24
-  Download size: 149 kB
-  Space needed: 756 kB / 50.2 GB available
+  Download size: 370 kB
+  Space needed: 942 kB / 50.2 GB available
 
 Continue? [Y/n] y
-Get:1 http://ru.archive.ubuntu.com/ubuntu resolute/main arm64 javascript-common all 12+nmu1build1 [4,864 B]
-Get:2 http://ru.archive.ubuntu.com/ubuntu resolute/universe arm64 libjs-highlight.js all 10.7.3+dfsg-2 [144 kB]
-Fetched 149 kB in 0s (1,138 kB/s)
-Selecting previously unselected package javascript-common.
-(Reading database… 213111 files and directories currently installed.)
-Preparing to unpack …/javascript-common_12+nmu1build1_all.deb…
-Unpacking javascript-common (12+nmu1build1)…
-Selecting previously unselected package libjs-highlight.js.
-Preparing to unpack …/libjs-highlight.js_10.7.3+dfsg-2_all.deb…
-Unpacking libjs-highlight.js (10.7.3+dfsg-2)…
-Setting up javascript-common (12+nmu1build1)…
-Setting up libjs-highlight.js (10.7.3+dfsg-2)…
+Get:1 http://ru.archive.ubuntu.com/ubuntu resolute/main arm64 libjs-jquery all 3.7.1+dfsg+~3.5.33-1build1 [321 kB]
+Get:2 http://ru.archive.ubuntu.com/ubuntu resolute/universe arm64 libjs-jquery-jush all 12-4build1 [48.6 kB]
+Fetched 370 kB in 0s (772 kB/s)
+Selecting previously unselected package libjs-jquery.
+(Reading database… 213122 files and directories currently installed.)
+Preparing to unpack …/libjs-jquery_3.7.1+dfsg+~3.5.33-1build1_all.deb…
+Unpacking libjs-jquery (3.7.1+dfsg+~3.5.33-1build1)…
+Selecting previously unselected package libjs-jquery-jush.
+Preparing to unpack …/libjs-jquery-jush_12-4build1_all.deb…
+Unpacking libjs-jquery-jush (12-4build1)…
+Setting up libjs-jquery (3.7.1+dfsg+~3.5.33-1build1)…
+Setting up libjs-jquery-jush (12-4build1)…
