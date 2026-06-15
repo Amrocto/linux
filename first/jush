@@ -1,0 +1,14 @@
+kniyaz@niyaz-x:~/first$ sudo apt autoremove libjs-jquery-jush
+REMOVING:
+  javascript-common  libjs-jquery  libjs-jquery-jush
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 3, Not Upgrading: 24
+  Freed space: 973 kB
+
+Continue? [Y/n] y
+(Reading database… 213140 files and directories currently installed.)
+Removing javascript-common (12+nmu1build1)…
+Removing libjs-jquery-jush (12-4build1)…
+Removing libjs-jquery (3.7.1+dfsg+~3.5.33-1build1)…
+niyaz@niyaz-x:~/first$

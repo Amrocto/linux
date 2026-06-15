@@ -1,0 +1,59 @@
+export ENVIRONMENT=Dev
+$ env         
+USER=niyaz
+PTYXIS_VERSION=50.1
+XDG_SESSION_TYPE=wayland
+SHLVL=0
+HOME=/home/niyaz
+OLDPWD=/home/niyaz
+DESKTOP_SESSION=ubuntu
+ENVIRONMENT=Dev
+IM_CONFIG_ENTRY=profile
+GTK_MODULES=gail:atk-bridge
+MANAGERPID=1530
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=91cb98ab8af40bea05b415ca6a2434fe
+DBUS_STARTER_BUS_TYPE=session
+SYSTEMD_EXEC_PID=1566
+COLORTERM=truecolor
+DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+WAYLAND_DISPLAY=wayland-0
+LOGNAME=niyaz
+MANAGERPIDFDID=8559
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+USERNAME=niyaz
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+FLATPAK_TTY_PROGRESS=1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+INVOCATION_ID=a14e2513085e4eb4b88eac3de7a61897
+GNOME_SETUP_DISPLAY=unix:/tmp/.X11-unix/X1
+PTYXIS_PROFILE=cd5cf2098277a08328edcba969edcd5a
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/1000
+DISPLAY=:0
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.5ABEQ3
+XDG_SESSION_DESKTOP=ubuntu
+XMODIFIERS=@im=ibus
+SSH_AUTH_SOCK=/run/user/1000/gcr/ssh
+SHELL=/bin/bash
+GDMSESSION=ubuntu
+QT_ACCESSIBILITY=1
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+QT_IM_MODULE=ibus
+PWD=/home/niyaz/first
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=91cb98ab8af40bea05b415ca6a2434fe
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_SESSION_EXTRA_DEVICE_ACCESS=render:accel
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+QT_IM_MODULES=wayland;ibus
+VTE_VERSION=8400
+
+
+//fourth exercise
+niyaz@niyaz-x:~/first$ alias cur="date"
+niyaz@niyaz-x:~/first$ cur
+Sat Jun  6 11:40:44 PM MSK 2026
