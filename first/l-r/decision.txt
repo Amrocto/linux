@@ -1,0 +1,29 @@
+niyaz@niyaz-x:~/first$ grep -l left l-r/file* | xargs -I {} mv {} l-r/answerleft/
+niyaz@niyaz-x:~/first$ grep -l right l-r/file* | xargs -I {} mv {} l-r/answerright/
+niyaz@niyaz-x:~/first$ grep left l-r/ | xargs -I {} mv {} l-r/answerleft/^C
+niyaz@niyaz-x:~/first$ ls
+123          dpkg           jush    lsblk.txt    repo            thirdls.txt
+ansible_dep  firstTask.txt  l-r     nginx        secondTask.txt  wget
+ansible_rec  hosts.txt      ls.txt  profile.txt  secondls.txt
+books.txt    jquery         lsblk   prompt.txt   sys-target.txt
+niyaz@niyaz-x:~/first$ cd l-r/
+niyaz@niyaz-x:~/first/l-r$ cat answer
+answerleft/  answerright/
+niyaz@niyaz-x:~/first/l-r$ cat answer^C
+niyaz@niyaz-x:~/first/l-r$ ls
+answerleft  answerright
+niyaz@niyaz-x:~/first/l-r$ ls^C
+niyaz@niyaz-x:~/first/l-r$ cat answer
+answerleft/  answerright/
+niyaz@niyaz-x:~/first/l-r$ cat answerleft/
+cat: answerleft/: Is a directory
+niyaz@niyaz-x:~/first/l-r$ cat answerleft
+cat: answerleft: Is a directory
+niyaz@niyaz-x:~/first/l-r$ cd answer
+-bash: cd: answer: No such file or directory
+niyaz@niyaz-x:~/first/l-r$ cd answerleft/
+niyaz@niyaz-x:~/first/l-r/answerleft$ ls
+fileA  fileD  fileG  fileJ  fileM  fileP  fileS  fileV  fileY
+fileB  fileE  fileH  fileK  fileN  fileQ  fileT  fileW  fileZ
+fileC  fileF  fileI  fileL  fileO  fileR  fileU  fileX
+niyaz@niyaz-x:~/first/l-r/answerleft$ cd ..
