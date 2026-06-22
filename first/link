@@ -1,6 +1,2 @@
-niyaz@niyaz-x:~/empty$ ls
-file777  hardfile  symfile
-niyaz@niyaz-x:~/empty$ ls -li
-792871 -rw-rw-r-- 2 niyaz niyaz 12 Jun 19 19:47 file777
-792871 -rw-rw-r-- 2 niyaz niyaz 12 Jun 19 19:47 hardfile
-792626 lrwxrwxrwx 1 niyaz niyaz  7 Jun 19 20:11 symfile -> file777
+~/empty/symfile
+~/empty/hardfile
