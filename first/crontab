@@ -20,4 +20,4 @@
 #
 # For more information see the manual pages of crontab(5) and cron(8)
 #
-* * 1 * * apt update && apt upgrade -y
+0 0 * * * apt update && apt upgrade -y
