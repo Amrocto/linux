@@ -1,0 +1,5 @@
+niyaz@niyaz-x:~/first$ sudo groupadd -g 1010 iren
+niyaz@niyaz-x:~/first$ man useradd
+niyaz@niyaz-x:~/first$ sudo useradd -u 1010 -g iren -s /bin/dash iren
+niyaz@niyaz-x:~/first$ id iren
+uid=1010(iren) gid=1010(iren) groups=1010(iren)
