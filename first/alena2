@@ -1,0 +1,4 @@
+niyaz@niyaz-x:~/first$ sudo usermod -a -G sudo alena
+[sudo: authenticate] Password:
+niyaz@niyaz-x:~/first$ id alena
+uid=1003(alena) gid=1003(alena) groups=1003(alena),27(sudo)
