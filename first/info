@@ -1,0 +1,14 @@
+niyaz@ws01:~/first$ tracepath ya.ru
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  _gateway                                              0.383ms
+ 1:  _gateway                                              0.400ms
+ 2:  no reply
+ 3:  no reply
+ 4:  no reply
+ 5:  no reply
+ 6:  no reply
+ 7:  no reply
+ 8:  no reply
+ 9:  no reply
+10:  no reply
+11:  no reply
