@@ -1,0 +1,1 @@
+niyaz@niyaz-x:~$ sudo iptables -L OUTPUT

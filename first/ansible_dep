@@ -1,0 +1,1 @@
+Depends: ansible-core (>= 2.18.0~), python3:any, openssh-client | python3-paramiko (>= 2.6.0), python3-dnspython, python3-httplib2, python3-jinja2, python3-netaddr (>= 0.10.1-1~), python3-yaml

@@ -1,0 +1,3 @@
+niyaz@niyaz-x:~/first$ sudo passwd -e iren
+passwd: password changed.
+niyaz@niyaz-x:~/first$

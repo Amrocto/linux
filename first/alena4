@@ -1,0 +1,17 @@
+niyaz@niyaz-x:~/first$ sudo groupadd developers
+niyaz@niyaz-x:~/first$ cat /etc/group | grep developers
+developers:x:1004:
+niyaz@niyaz-x:~/first$ sudo usermod -g developers
+alena                 daemon                hplip                 niyaz2                speech-dispatcher     tcpdump
+_apt                  dhcpcd                irc                   nm-openvpn            sshd                  tss
+avahi                 dnsmasq               list                  nobody                sssd                  usbmux
+backup                fwupd-refresh         lp                    pipewire              sync                  uucp
+bin                   games                 mail                  polkitd               sys                   uuidd
+_chrony               gaz                   man                   proxy                 syslog                whoopsie
+colord                gdm                   messagebus            root                  systemd-network       www-data
+cups-browsed          geoclue               news                  rtkit                 systemd-oom
+cups-pk-helper        gnome-remote-desktop  niyaz                 saned                 systemd-resolve
+niyaz@niyaz-x:~/first$ sudo usermod -g developers alena
+niyaz@niyaz-x:~/first$ id alena
+uid=1003(alena) gid=1004(developers) groups=1004(developers),27(sudo)
+niyaz@niyaz-x:~/first$
