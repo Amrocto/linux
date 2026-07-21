@@ -1,0 +1,55 @@
+niyaz@app01:~$ sudo pvcreate /dev/vdb1
+  Physical volume "/dev/vdb1" successfully created.
+niyaz@app01:~$ sudo pvs
+  PV         VG Fmt  Attr PSize  PFree
+  /dev/vdb1     lvm2 ---  <5.00g <5.00g
+niyaz@app01:~$ sudo vgcreate vg_vdb /dev/vdb1
+  Volume group "vg_vdb" successfully created
+niyaz@app01:~$ sudo vgs
+  VG     #PV #LV #SN Attr   VSize  VFree
+  vg_vdb   1   0   0 wz--n- <5.00g <5.00g
+niyaz@app01:~$ sudo lvcreate -l 100%FREE -n lv_vdb vg_vdb
+  Logical volume "lv_vdb" created.
+niyaz@app01:~$ sudo lvs
+  LV     VG     Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  lv_vdb vg_vdb -wi-a----- <5.00g
+
+
+
+
+niyaz@app01:~$ sudo mkfs.xfs /dev/volume1/storage
+specified device /dev/volume1/storage not a file or block device
+Usage: mkfs.xfs
+/* blocksize */		[-b size=num]
+/* config file */	[-c options=xxx]
+/* metadata */		[-m crc=0|1,finobt=0|1,uuid=xxx,rmapbt=0|1,reflink=0|1,
+			    inobtcount=0|1,bigtime=0|1,autofsck=xxx,
+			    metadir=0|1]
+/* quota */		[-m uquota|uqnoenforce,gquota|gqnoenforce,
+			    pquota|pqnoenforce]
+/* data subvol */	[-d agcount=n,agsize=n,file,name=xxx,size=num,
+			    (sunit=value,swidth=value|su=num,sw=num|noalign),
+			    sectsize=num,concurrency=num]
+/* force overwrite */	[-f]
+/* inode size */	[-i perblock=n|size=num,maxpct=n,attr=0|1|2,
+			    projid32bit=0|1,sparse=0|1,nrext64=0|1,
+			    exchange=0|1,max_atomic_write=n]
+/* no discard */	[-K]
+/* log subvol */	[-l agnum=n,internal,size=num,logdev=xxx,version=n
+			    sunit=value|su=num,sectsize=num,lazy-count=0|1,
+			    concurrency=num]
+/* label */		[-L label (maximum 12 characters)]
+/* naming */		[-n size=num,version=2|ci,ftype=0|1,parent=0|1]]
+/* no-op info only */	[-N]
+/* prototype file */	[-p fname]
+/* populate from directory */	[-p dirname,atime=0|1]
+/* quiet */		[-q]
+/* realtime subvol */	[-r extsize=num,size=num,rtdev=xxx,rgcount=n,rgsize=n,
+			    concurrency=num,zoned=0|1,start=n,reserved=n]
+/* sectorsize */	[-s size=num]
+/* version */		[-V]
+			devicename
+<devicename> is required unless -d name=xxx is given.
+<num> is xxx (bytes), xxxs (sectors), xxxb (fs blocks), xxxk (xxx KiB),
+      xxxm (xxx MiB), xxxg (xxx GiB), xxxt (xxx TiB) or xxxp (xxx PiB).
+<value> is xxx (512 byte blocks).
