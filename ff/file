@@ -1,0 +1,4 @@
+niyaz@niyazOS:~$ grep -r .service
+grep: .cache/tracker3/files/meta.db: binary file matches
+niyaz@niyazOS:~$ ps aux | grep -r .service
+grep: .cache/tracker3/files/meta.db: binary file matches
