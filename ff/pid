@@ -1,5 +1,1 @@
-niyaz@niyazOS:~/linux/ff$ ps aux | grep sshd
-root        2546  0.0  0.2  12248  9492 ?        Ss   Jul23   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
-root        5036  0.0  0.3  21980 11376 ?        Ss   04:37   0:00 sshd-session: niyaz [priv]
-niyaz       5072  0.1  0.2  21980  7480 ?        S    04:37   0:04 sshd-session: niyaz@pts/0
-niyaz       5805  0.0  0.0  18376  2160 pts/0    S+   05:21   0:00 grep --color=auto sshd
+pgrep -x sshd
