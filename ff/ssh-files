@@ -1,0 +1,5 @@
+niyaz@niyazOS:~/linux/ff$ lsof -c sshd | grep 'sshd[[:space:]]'
+sshd      2546  root  cwd   unknown                      /proc/2546/cwd (readlink: Permission denied)
+sshd      2546  root  rtd   unknown                      /proc/2546/root (readlink: Permission denied)
+sshd      2546  root  txt   unknown                      /proc/2546/exe (readlink: Permission denied)
+sshd      2546  root NOFD      0000                      /proc/2546/fd (opendir: Permission denied)

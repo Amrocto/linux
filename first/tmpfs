@@ -1,0 +1,15 @@
+niyaz@app01:~$ sudo mount -t tmpfs -o size=100M /dev/vdb /mnt/tmp-data/
+niyaz@app01:~$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.9G  1.8M  1.9G   1% /run
+/dev/vda2        62G   13G   47G  22% /
+tmpfs           4.6G     0  4.6G   0% /dev/shm
+efivarfs         56K  6.5K   50K  12% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/vda1       1.1G  6.6M  1.1G   1% /boot/efi
+tmpfs           4.6G   17M  4.6G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           941M   48K  941M   1% /run/user/1000
+/dev/vdb        100M     0  100M   0% /mnt/tmp-data
+niyaz@app01:~$

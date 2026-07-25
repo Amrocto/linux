@@ -1,0 +1,49 @@
+niyaz@app01:~$ sudo fdisk /dev/vdb
+
+Welcome to fdisk (util-linux 2.41.3).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+This disk is currently in use - repartitioning is probably a bad idea.
+It's recommended to umount all file systems, and swapoff all swap
+partitions on this disk.
+
+
+Command (m for help): d
+
+Selected partition 1
+Partition 1 has been deleted.
+
+Command (m for help): 1
+1: unknown command
+
+Command (m for help): w
+
+The partition table has been altered.
+Syncing disks.
+
+niyaz@app01:~$ lsblk
+NAME             MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0              7:0    0     4K  1 loop /snap/bare/5
+loop1              7:1    0  61.9M  1 loop /snap/core24/1644
+loop2              7:2    0  19.5M  1 loop /snap/desktop-security-center/149
+loop3              7:3    0  61.9M  1 loop /snap/core24/1588
+loop4              7:4    0 552.9M  1 loop /snap/gnome-46-2404/154
+loop5              7:5    0  19.9M  1 loop /snap/desktop-security-center/152
+loop6              7:6    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop7              7:7    0 240.6M  1 loop /snap/firefox/8630
+loop8              7:8    0  43.4M  1 loop /snap/snapd/27407
+loop9              7:9    0 240.1M  1 loop /snap/firefox/8579
+loop10             7:10   0  17.5M  1 loop /snap/prompting-client/203
+loop11             7:11   0 188.2M  1 loop /snap/mesa-2404/1778
+loop12             7:12   0  14.9M  1 loop /snap/snap-store/1368
+loop13             7:13   0  17.5M  1 loop /snap/prompting-client/221
+loop14             7:14   0 188.2M  1 loop /snap/mesa-2404/1836
+loop15             7:15   0   800K  1 loop /snap/snapd-desktop-integration/388
+loop16             7:16   0   804K  1 loop /snap/snapd-desktop-integration/396
+loop17             7:17   0  42.6M  1 loop /snap/snapd/26869
+vda              253:0    0    64G  0 disk
+├─vda1           253:1    0     1G  0 part /boot/efi
+└─vda2           253:2    0  62.9G  0 part /
+vdb              253:16   0     5G  0 disk
+└─vg_vdb-lv_name 252:0    0   200M  0 lvm

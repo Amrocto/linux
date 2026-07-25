@@ -1,0 +1,4 @@
+niyaz@niyaz-x:~/empty$ grep -r "You got me!"
+file777:You got me!
+niyaz@niyaz-x:~/empty$ grep -lr "You got me!"
+file777

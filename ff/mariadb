@@ -1,0 +1,1 @@
+niyaz@niyazOS:~/linux/ff$ systemctl enable mariadb.service

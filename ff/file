@@ -1,0 +1,2 @@
+niyaz@niyazOS:~/linux/ff$ systemctl show -p FragmentPath ssh.service
+FragmentPath=/usr/lib/systemd/system/ssh.service
